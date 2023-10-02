@@ -23,7 +23,7 @@ d = 50 # cm
 P_IPD = 6.3 # cm
 
 # default image resolution
-video_res = [640,480]
+video_res = [900,720]
 
 # define the face detector from Dlib package
 detector = dlib.get_frontal_face_detector()
