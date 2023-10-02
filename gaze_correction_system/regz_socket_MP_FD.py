@@ -106,7 +106,7 @@ class video_receiver:
             frame_data = data[:msg_size]
             data = data[msg_size:]
             frame = pickle.loads(frame_data, fix_imports=True, encoding="bytes")
-            if frame == 'stop':
+            if frame.tobytes() == b'stop':
                 print('stop')
                 cv2.destroyWindow("Remote")
                 break
