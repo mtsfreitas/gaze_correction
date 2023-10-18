@@ -1,3 +1,18 @@
+# Using Python 3.10
+versão: python 3.10
+pip install opencv-python
+pip install dlib 
+pip install tensorflow
+pip install pywin32
+
+For solve dlib erros, install c++ dependencies: https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+If you still erros: pip install cmake
+
+Reference: https://stackoverflow.com/questions/48541801/microsoft-visual-c-14-0-is-required-get-it-with-microsoft-visual-c-build-t
+
+
+
 Correcting gaze by warping-based convolutional neural network.
 # Paper
 @article{Hsu:2019:LMC:3339884.3311784,<br />
