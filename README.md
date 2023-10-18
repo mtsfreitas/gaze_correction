@@ -1,9 +1,8 @@
 # Using Python 3.10
-versão: python 3.10
-pip install opencv-python
-pip install dlib 
-pip install tensorflow
-pip install pywin32
+* pip install opencv-python
+* pip install dlib 
+* pip install tensorflow
+* pip install pywin32
 
 For solve dlib erros, install c++ dependencies: https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
